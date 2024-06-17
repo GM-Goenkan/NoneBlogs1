@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - NoneBlogs</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="NONEBLOGS.png" alt="NoneBlogs Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <section class="about-section">
+            <h1>About NoneBlogs</h1>
+            <p>Welcome to NoneBlogs, the ultimate destination for bloggers and content creators. We are passionate about providing a platform that empowers individuals to share their ideas, stories, and expertise with the world. Our mission is to create a space where everyone can have a voice and make a difference.</p>
+
+            <h2>Our Mission</h2>
+            <p>At NoneBlogs, our mission is to democratize blogging by making it accessible to everyone. We believe that everyone has a unique perspective that deserves to be heard. Whether you are a seasoned writer or a beginner, NoneBlogs offers the tools and support you need to start your blogging journey.</p>
+
+            <h2>Our Values</h2>
+            <ul>
+                <li><strong>Inclusivity:</strong> We believe in the power of diverse voices and strive to create an inclusive platform where everyone feels welcome.</li>
+                <li><strong>Innovation:</strong> We are constantly innovating and improving our platform to provide the best blogging experience for our users.</li>
+                <li><strong>Community:</strong> We foster a strong community of bloggers who support and inspire each other.</li>
+                <li><strong>Transparency:</strong> We are committed to being transparent with our users and maintaining the highest ethical standards.</li>
+            </ul>
+
+            <h2>Meet the Team</h2>
+            <div class="team">
+                <div class="team-member">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq24b2KKPyFL3-RmRMzMgAz2PeY4eKwooI3w&s" alt="Jane Doe">
+                    <h3>Diyaan Kalra</h3>
+                    <p>Founder</p>
+                    <p>Dyaan Kalra is the visionary behind NoneBlogs. With a passion for storytelling and technology,he founded NoneBlogs to provide a platform where voices from all walks of life can be heard.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
+<style>
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Main Content Styling */
+.main-content {
+    width: 85%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+.about-section h2 {
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #007bff;
+    position: relative;
+}
+
+.about-section h2::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: #007bff;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+}
+
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.about-section ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    list-style: disc inside;
+    padding-left: 20px;
+}
+
+.about-section ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+/* Team Section Styling */
+.team {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.team-member img:hover {
+    transform: scale(1.1);
+}
+
+.team-member h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-section h1 {
+        font-size: 28px;
+    }
+
+    .about-section h2 {
+        font-size: 24px;
+    }
+
+    .about-section p,
+    .about-section ul li {
+        font-size: 16px;
+    }
+
+    .team-member h3 {
+        font-size: 20px;
+    }
+
+    .team-member p {
+        font-size: 14px;
+    }
+}
+</style>
